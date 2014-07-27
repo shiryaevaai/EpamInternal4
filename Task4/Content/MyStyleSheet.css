@@ -1,4 +1,7 @@
-﻿.container-mid {
+﻿body {
+  background: -webkit-linear-gradient(bottom right, #86cfff, #428bca);
+}
+.container-mid {
   border: solid;
   border-color: #64adec;
   border-radius: 10px;
@@ -83,6 +86,14 @@ header,
   padding: 1%;
 }
 .my-button {
-  background-color: #e1edf7;
+  background-color: #428bca;
+  color: #ffffff;
+}
+.footer {
+  background: black;
+  color: white;
+}
+.my-logo {
+  padding: 0 20%;
 }
 /*# sourceMappingURL=MyStyleSheet.css.map */

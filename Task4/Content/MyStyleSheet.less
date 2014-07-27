@@ -1,7 +1,9 @@
 ﻿@top-menu-color:#428bca;
 
 @my-bordercolor: @logo-col-box-color + #222222;
-@my-btn-color: lighten(@top-menu-color, 40%);
+@my-btn-color: @top-menu-color;
+@my-btn-fontcolor: white;
+@my-footer-color: lighten(@top-menu-color, 40%);
 
 @logo-col-box-color: @top-menu-color;
 @logo-msg-hover: lighten(@top-menu-color, 40%);
@@ -9,7 +11,8 @@
 @mid-box-bgcolor: @my-bordercolor;
 
 body {
-
+    background: -webkit-linear-gradient(bottom right,@mid-box-bgcolor+#222222,
+    @mid-box-bgcolor - #222222);
 }
 
 .container-mid {
@@ -116,4 +119,14 @@ header, .top-search {
 
 .my-button {
     background-color: @my-btn-color;
+    color: @my-btn-fontcolor;
+}
+
+.footer {
+    background: black;
+    color:white;
+}
+
+.my-logo {
+    padding: 0 20%;
 }
