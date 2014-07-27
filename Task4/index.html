@@ -105,7 +105,7 @@
                         </ul>
                     </div>
 
-                    <div class="top-menu col-xs-3 col-sm-3 hidden-md hidden-lg">
+                    <div class="top-menu col-xs-4 col-sm-4 hidden-md hidden-lg">
                         <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                             Actions
                             <span class="caret"></span>
@@ -118,10 +118,16 @@
                         </ul>
                     </div>
 
-                    <div class="top-search col-xs-9 col-sm-9 col-md-5 col-lg-4" style="padding:1%;">
+                    <div class="top-search col-xs-8 col-sm-8 col-md-5 col-lg-4" style="padding:1%;">
                         <form class="form-search form-inline">
-                            <input type="text" class="input-medium search-query">
-                            <button type="submit" class="btn">Search</button>
+                            <div class="row">
+                                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <input type="text" class="input-medium search-query form-control">
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <button type="submit" class="btn">Search</button>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -152,18 +158,21 @@
                             </div>
                         </div>
 
-                        <div class="row" style="height:200px;">                     <!--2 row in middle-->
+                       
+                        <div class="row" style="height:200px;">
+                            <!--2 row in middle-->
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 box-mid">
                                 <div class="box-mid2">
                                     <div class="row">
                                         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
-                                            <ul class="list-group">
-                                                <li class="list-group-item">Player 1</li>
-                                                <li class="list-group-item">Player 2</li>
-                                                <li class="list-group-item">Player 3</li>
-                                                <li class="list-group-item">Player 4</li>
-                                                <li class="list-group-item">Player 5</li>
-                                            </ul>
+                                            
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item">Player 1</a>
+                                                <a href="#" class="list-group-item">Player 2</a>
+                                                <a href="#" class="list-group-item">Player 3</a>
+                                                <a href="#" class="list-group-item">Player 4</a>
+                                            </div>
+
                                         </div>
 
                                         <div class="col-xs-6 col-sm-6 col-md-7 col-lg-7">
@@ -187,27 +196,31 @@
                             <div class="hidden-xs hidden-sm col-md-2 col-lg-4 box-mid">
                                 <!--weapon-->
                                 <div class="box-mid2">
-                                    <ul class="list-group">
-                                        <li class="list-group-item">weapon1</li>
-                                        <li class="list-group-item">weapon2</li>
-                                        <li class="list-group-item">weapon3</li>
-                                        <li class="list-group-item">weapon4</li>
-                                        <li class="list-group-item">weapon5</li>
-                                    </ul>
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item">Weapon 1</a>
+                                        <a href="#" class="list-group-item">Weapon 2</a>
+                                        <a href="#" class="list-group-item">Weapon 3</a>
+                                        <a href="#" class="list-group-item">Weapon 4</a>
+                                        <a href="#" class="list-group-item">Weapon 5</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>                      
 
-                        <div class="row container-mid">                                           <!--3 row in middle-->
-                            <div class="hidden-xs hidden-sm col-md-10 col-lg-10">
-                                <div class="progress progress-striped active-->">
-                                    <div class="progress-bar" style="width: 40%;"></div>
+                        <div class="row container-mid" >
+                            <!--3 row in middle-->
+                        
+                                <div class="hidden-xs hidden-sm col-md-10 col-lg-10">
+                                    <div class="progress progress-striped active-->">
+                                        <div class="progress-bar" style="width: 40%;"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
 
-                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                                <button type="submit" class="btn">Play</button>
-                            </div>
+                                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                    <button type="submit" class="form-control">Play</button>
+                                </div>
+                            
                         </div>
                     </div>
                 </div>
