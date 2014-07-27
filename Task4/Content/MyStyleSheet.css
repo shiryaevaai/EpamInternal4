@@ -1,4 +1,4 @@
-﻿body {
+﻿.main-row {
   background: -webkit-linear-gradient(bottom right, #86cfff, #428bca);
 }
 .container-mid {
@@ -44,10 +44,9 @@
 }
 .item-list li {
   list-style-type: none;
-  border: solid;
-  border-color: white;
 }
 .item-list li:hover {
+  border: solid;
   border-color: #e1edf7;
   border-radius: 10px;
   background-color: #e1edf7;

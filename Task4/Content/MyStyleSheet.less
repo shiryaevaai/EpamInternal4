@@ -10,7 +10,7 @@
 
 @mid-box-bgcolor: @my-bordercolor;
 
-body {
+.main-row {
     background: -webkit-linear-gradient(bottom right,@mid-box-bgcolor+#222222,
     @mid-box-bgcolor - #222222);
 }
@@ -68,12 +68,11 @@ body {
 }
 
 .item-list li {
-    list-style-type:none;  
-    border:solid;
-    border-color: white; 
+    list-style-type:none;   
 }
 
 .item-list li:hover {
+    border:solid;
     border-color: @logo-msg-hover;
     border-radius:10px;
     background-color: @logo-msg-hover;
