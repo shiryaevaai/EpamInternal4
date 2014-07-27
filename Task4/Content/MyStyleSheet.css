@@ -1,0 +1,88 @@
+﻿.container-mid {
+  border: solid;
+  border-color: #64adec;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(top left, #86cfff, #428bca);
+  padding: 2%;
+  margin: 10px 0;
+  height: 100%;
+}
+.box-mid {
+  height: 100%;
+}
+.box-mid2 {
+  border: solid;
+  border-color: #64adec;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(top left, #86cfff, #428bca);
+  padding: 2%;
+  height: 100%;
+}
+.container-small {
+  border: solid;
+  border-color: #64adec;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(top left, #86cfff, #428bca);
+  margin: 5px;
+  padding: 5px;
+}
+.container-small li {
+  list-style-type: none;
+}
+.item-list {
+  -webkit-padding-start: 5px;
+  border: solid;
+  border-color: #64adec;
+  border-radius: 10px;
+  margin: 5px;
+  overflow: scroll;
+  height: 200px;
+  padding-left: 5px;
+}
+.item-list li {
+  list-style-type: none;
+  border: solid;
+  border-color: white;
+}
+.item-list li:hover {
+  border-color: #e1edf7;
+  border-radius: 10px;
+  background-color: #e1edf7;
+}
+.align-center {
+  padding: 35%;
+}
+.my_Image_Game {
+  height: 148px;
+  width: 193px;
+  margin: 15px auto;
+}
+.my_Image_Player {
+  height: 148px;
+  width: 148px;
+  margin: 15px auto;
+}
+.img-player {
+  width: 90%;
+  height: auto;
+  padding: 4px;
+  margin: 1%;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.middle-row {
+  height: 200px;
+}
+.my-progress-bar {
+  width: 40%;
+}
+header,
+.top-search {
+  padding: 1%;
+}
+.my-button {
+  background-color: #e1edf7;
+}
+/*# sourceMappingURL=MyStyleSheet.css.map */
