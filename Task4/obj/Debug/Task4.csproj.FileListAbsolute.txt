@@ -1,0 +1,6 @@
+C:\Users\Anna_Shiriaeva\Documents\svnRepos\trunc\Task4\Task4\bin\Task4.dll.config
+C:\Users\Anna_Shiriaeva\Documents\svnRepos\trunc\Task4\Task4\bin\Task4.dll
+C:\Users\Anna_Shiriaeva\Documents\svnRepos\trunc\Task4\Task4\bin\Task4.pdb
+C:\Users\Anna_Shiriaeva\Documents\svnRepos\trunc\Task4\Task4\obj\Debug\Task4.csprojResolveAssemblyReference.cache
+C:\Users\Anna_Shiriaeva\Documents\svnRepos\trunc\Task4\Task4\obj\Debug\Task4.dll
+C:\Users\Anna_Shiriaeva\Documents\svnRepos\trunc\Task4\Task4\obj\Debug\Task4.pdb
