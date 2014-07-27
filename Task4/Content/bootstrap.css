@@ -6212,8 +6212,22 @@ button.close {
     border-color: black;
     border-radius:10px;
     padding:2%;  
-    /*margin: 10px 0;*/
-    height:100%
+    margin: 10px 0;
+   
+    height:100%;
+}
+
+.box-mid {
+    /*padding:2%;*/    
+    height:100%;
+}
+
+.box-mid2 {
+    border:solid;
+    border-color: black;
+    border-radius:10px;
+    padding:2%;   
+    height:100%;
 }
 
 .container-small {
@@ -6260,7 +6274,24 @@ button.close {
     padding: 35%;
 }
 .my_Image_Game{
-    height:148px;
-    width:148px;
-    margin:auto;
+    height: 148px;
+    width: 193px;
+    margin: 15px auto;
+}
+
+.my_Image_Player{
+    height: 148px;
+    width: 148px;
+    margin: 15px auto;
+}
+
+.img-player {
+width: 90%;
+height: auto;
+padding: 4px;
+margin: 1%;
+line-height: 1.42857143;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 4px;
 }
